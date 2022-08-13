@@ -1,0 +1,66 @@
+
+.img { 
+    width: 4rem;
+    border-radius: 10px;
+    
+}
+
+.description {
+    font-size: 0.7rem;
+    font-style: italic;
+}
+.name {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.address {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.displayContainer {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 0px 0px 15px 15px;
+    border-bottom: 0.1px solid #fcb8d2;
+    border-left: 0.1px solid #fcb8d2;
+    border-right: 0.1px solid #fcb8d2;
+    color: #fcb8d2;
+    position: absolute;
+    width: 12.8rem;
+    margin-left: 10px;
+    border: 1
+}
+
+.display {
+    border-top: 0.1px solid #fcb8d2;
+    margin-bottom: 20px;
+    
+}
+
+.display:hover {
+    color: white;
+    border-color: white;
+    
+}
+
+.centered {
+    text-align: center;
+}
+.redirectBtn {
+    background-color: rgba(147, 25, 7,0.9);
+    background: none;
+    color: #fcb8d2;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    width: 70%;
+    padding: 4px 4px 4px 4px;
+    border-radius: 10px;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+
+.redirectBtn:hover {
+    color: white;
+    text-decoration: underline;
+}
