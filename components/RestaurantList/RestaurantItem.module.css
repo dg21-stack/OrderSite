@@ -1,0 +1,151 @@
+.restaurantContainer {
+    display: block;
+    /* padding: 10px; */
+    padding-bottom: 0px;
+}
+
+.restaurantContainer hr {
+    border: rgba(0, 0, 0,0.5) solid 0.4px;
+}
+/* .restaurantContainer div {
+    padding-bottom: 10px;
+    font-weight: bold;
+} */
+
+.btn {
+    background-color: rgba(147, 25, 7,0.9);;
+        color: rgba(255,255,255,0.7);
+        margin: 0;
+        border-radius: none;
+        cursor: pointer;
+        padding: 18px;
+        width: 30%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        padding: 10px 20px 10px 20px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+}
+
+.restaurantContainer h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: rgba(147, 25, 7,0.8);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.7);
+}
+.description {
+    font-style: italic;
+    display: block;
+    font-weight: 500;
+
+    padding-bottom: 10px;
+}
+.imageContainer {
+    width: 80%;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid  rgba(0, 0, 0,0.7);
+
+}
+/* .restaurantContainer button {
+    padding: 5px 20px 5px 20px;
+    background-color:#931907;
+    border: none;
+    color: rgba(255, 255, 255,0.7);
+    cursor: pointer; 
+     margin: 5px; 
+    border-radius: 7.5px;
+} */
+
+.orderButton {
+   
+        background-color: rgba(147, 25, 7,0.9);;
+        color: rgba(255,255,255,0.7);
+        margin: 0;
+        border-radius: none;
+        cursor: pointer;
+        padding: 18px;
+        width: 75%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px 10px 10px 10px;
+        transition: border-radius ease 0.2s;
+}
+.on {
+    border-radius: 10px 10px 0px 0px;
+  }
+.nextBtn {
+    background-color: rgba(147, 25, 7,0.9);
+    color: rgba(255,255,255,0.7);
+    margin: 0;
+    border-radius: none;
+    cursor: pointer;
+
+    width: 80px;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600px;
+    transition: 0.4s;
+    padding: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
+
+    border-radius: 10px 10px 10px 10px;
+}
+
+.restaurantContainer button:hover, .nextBtn:hover, .orderButton:hover {
+    background-color: #5b1207;
+    color: white;
+
+}
+.restaurantContainer button:active, .nextBtn:active, .orderButton:hover {
+    background-color: #280803;
+    color: white;
+}
+.selectedBtn {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.7);
+
+}
+.userContainer {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgba(147, 25, 7,0.8);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.7);
+
+
+}
+.subtitle {
+    font-style: italic;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.subtitles {
+
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.visibility {
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+width: 75%;
+margin-left: 12.5%;
+background-color:rgba(147, 25, 7,0.3);
+border-radius: 0px 0px 10px 10px;
+}
+
