@@ -1,7 +1,7 @@
 import  { useRouter } from "next/router";
 import { useState, useContext, useEffect, Fragment } from "react";
 import Card from "../../components/Card/Card";
-import AddItem from "../../components/items/addItem";
+import AddItem from "../../components/items/AddItem";
 import ChangeDescription from "../../components/items/ChangeDescription";
 import ChangeImage from "../../components/items/ChangeImage";
 import ChangeName from "../../components/items/ChangeName";
