@@ -2,7 +2,7 @@
 import DetailCard from "../../../components/Card/DetailCard";
 import { useContext, useSearchParams, useState, useEffect } from "react";
 import AuthContext from "../../../components/store/use-context";
-import Image from "../../../components/Details/image";
+import Image from "../../../components/Details/Image";
 import Details from '../../../components/Details/Details';
 import Menu from "../../../components/Details/Menu";
 import ItemCard from "../../../components/Card/ItemCard";
