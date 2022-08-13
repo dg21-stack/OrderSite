@@ -6,7 +6,7 @@ import ChangeDescription from "../../components/items/ChangeDescription";
 import ChangeImage from "../../components/items/ChangeImage";
 import ChangeName from "../../components/items/ChangeName";
 import ChangeParagraph from "../../components/items/ChangeParagraph";
-import RemoveItem from "../../components/items/removeItem";
+import RemoveItem from "../../components/items/RemoveItem";
 import AuthContext from "../../components/store/use-context";
 import styles from './business.module.css';
 import BusinessReviews from "../../components/Details/BusinessReviews";
