@@ -3,7 +3,7 @@ import Card from "../../../components/Card/Card";
 import SearchInfo from "../../../components/Details/SearchInfo";
 import AuthContext from "../../../components/store/use-context";
 import styles from '../../../components/Details/SearchInfo.module.css';
-import Head from 'next/Head';
+import Head from 'next/head';
 const search = () => {
     const authCtx = useContext(AuthContext);
     const [currSearch, setCurrSearch] = useState(null);
