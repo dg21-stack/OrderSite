@@ -8,6 +8,9 @@ const ModalItemDisplay = (props) => {
         cartCtx.append(props.name, parseInt(props.price));
     }
     const minusHandler = () => {
+        if (cartCtx.currCart[cartCtx.findIndex(props.name)]?.amount == 0 || cartCtx.currCart[cartCtx.findIndex(props.name)] == undefined) {
+            return;
+        }
         cartCtx.remove(props.name);
     }
     return (<div style ={{marginBottom: '20px'}}>
