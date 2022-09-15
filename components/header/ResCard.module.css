@@ -6,33 +6,35 @@
 }
 
 .description {
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-style: italic;
 }
 .name {
-    font-size: 0.9rem;
+    font-size: 1.7rem;
     font-weight: 700;
 }
 .address {
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 1.3rem;
 }
 .displayContainer {
     background-color: rgba(0,0,0,0.8);
     border-radius: 0px 0px 15px 15px;
-    border-bottom: 0.1px solid #fcb8d2;
-    border-left: 0.1px solid #fcb8d2;
-    border-right: 0.1px solid #fcb8d2;
-    color: #fcb8d2;
+    border-bottom: 0.1px solid rgba(255,255,255,0.8);
+    border-left: 0.1px solid rgba(255,255,255,0.8);
+    border-right: 0.1px solid rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.8);
     position: absolute;
     width: 12.8rem;
     margin-left: 10px;
-    border: 1
+    border: 1;
+    width: 24.95rem;
 }
 
 .display {
-    border-top: 0.1px solid #fcb8d2;
+    border-top: 0.1px solid rgba(255,255,255,0.8);
     margin-bottom: 20px;
+    
     
 }
 
@@ -48,7 +50,7 @@
 .redirectBtn {
     background-color: rgba(147, 25, 7,0.9);
     background: none;
-    color: #fcb8d2;
+    color: rgba(255,255,255,0.8);
     cursor: pointer;
     border: none;
     text-align: center;
