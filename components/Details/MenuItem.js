@@ -14,7 +14,10 @@ const MenuItem = (props) => {
         cartCtx.append(props.name, parseInt(props.price));
         setCurrIndex(cartCtx.findIndex(props.name));
     }
-    const minusHandler = () => {
+     const minusHandler = () => {
+        if (cartCtx.currCart[cartCtx.findIndex(props.name)]?.amount == 0 || cartCtx.currCart[cartCtx.findIndex(props.name)] == undefined) {
+            return;
+        }
         cartCtx.remove(props.name);
         setCurrIndex(cartCtx.findIndex(props.name));
     }
